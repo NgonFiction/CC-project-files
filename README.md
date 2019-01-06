@@ -1,2 +1,2 @@
-# cc-top-down-shooter-
+# cc-top-down-shooter
 CC Top-down Shooter Project Files
