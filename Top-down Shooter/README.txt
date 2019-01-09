@@ -1,0 +1,1 @@
+Copy Assets and ProjectSettings into your Unity project and Unity will generate all the other folders needed.
