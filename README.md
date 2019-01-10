@@ -4,4 +4,6 @@
 - 2D Platformer [Coming some time in future]
 
 ## Note for Project Files
-Copy the Assets and ProjectSettings folder (from any of the lessons) into your Unity project and Unity will generate all the other folders needed.
+Copy the Assets and ProjectSettings folder (in any of the Project Files folders) into your empty Unity project and Unity will generate all the other folders needed.
+
+The final/latest files for this project is in the PROJECT FILES folder in the Lesson 7 folder.
