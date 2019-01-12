@@ -5,12 +5,14 @@ using UnityEngine;
 public class Gun : MonoBehaviour {
 
     public Transform firePoint;
-    public Transform bullet;
-	
+    public GameObject bulletPrefab;
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown("Fire1")) {
-            Instantiate(bullet, firePoint.position, firePoint.rotation);
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Physics.IgnoreCollision(bullet.GetComponent<Collider>(), GetComponent<Collider>());
+            Destroy(bullet, 3f);
         }
 	}
 }
